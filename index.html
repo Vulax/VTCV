@@ -9,6 +9,8 @@
 </head>
 
 <body>
+  <canvas id="bg-canvas"></canvas>
+
   <header class="header">
     <h1 class="logo">Vukašin Todorović</h1>
     <button id="menu-toggle" class="menu-toggle">&#9776;</button>
@@ -22,18 +24,18 @@
   </header>
 
   <main>
-  <section id="hero" class="hero-section">
-  <img src="Me.png" alt="Vukašin Todorović" class="profile-img" />
-  <h2>Vukašin Todorović</h2>
-  <p>
-    Software Engineer focused on building secure, scalable web applications
-    and backend systems.<br>
-    Experience in full-stack development, data analysis, and system security.
-  </p>
-  <p style="margin-top:1rem;">
-    <a href="CV.pdf" download class="contact-link">Download CV</a>
-  </p>
-</section>
+    <section id="hero" class="hero-section">
+      <img src="Me.png" alt="Vukašin Todorović" class="profile-img" />
+      <h2>Vukašin Todorović</h2>
+      <p>
+        Software Engineer focused on building secure, scalable web applications
+        and backend systems.<br>
+        Experience in full-stack development, data analysis, and system security.
+      </p>
+      <p style="margin-top:1rem;">
+        <a href="CV.pdf" download class="contact-link">Download CV</a>
+      </p>
+    </section>
 
 
 
@@ -113,60 +115,60 @@
       </div>
     </section>
 
-   <section id="education" class="section">
-  <h3>Education</h3>
+    <section id="education" class="section">
+      <h3>Education</h3>
 
-  <div class="education-timeline">
+      <div class="education-timeline">
 
-    <div class="edu-item">
-      <div class="edu-icon">
-        <img src="icons/slogo.png" alt="Singidunum University">
-      </div>
-      <div class="edu-content">
-        <h4>Master in Contemporary Information Technologies</h4>
-        <span class="edu-school">Singidunum University — Belgrade, Serbia</span>
-        <span class="edu-date">2025 – Present</span>
-        <p>
-          Master’s studies focused on modern information technologies,
-          software engineering and advanced systems.
-        </p>
-      </div>
-    </div>
+        <div class="edu-item">
+          <div class="edu-icon">
+            <img src="icons/slogo.png" alt="Singidunum University">
+          </div>
+          <div class="edu-content">
+            <h4>Master in Contemporary Information Technologies</h4>
+            <span class="edu-school">Singidunum University — Belgrade, Serbia</span>
+            <span class="edu-date">2025 – Present</span>
+            <p>
+              Master’s studies focused on modern information technologies,
+              software engineering and advanced systems.
+            </p>
+          </div>
+        </div>
 
-    <div class="edu-item">
-      <div class="edu-icon">
-        <img src="icons/slogo.png" alt="Singidunum University">
-      </div>
-      <div class="edu-content">
-        <h4>Bachelor in Computer Science</h4>
-        <span class="edu-school">Singidunum University — Belgrade, Serbia</span>
-        <span class="edu-date">2021 – 2025</span>
-        <p>
-          Bachelor studies in Computer Science with focus on
-          programming, databases, web technologies and security.
-        </p>
-      </div>
-    </div>
+        <div class="edu-item">
+          <div class="edu-icon">
+            <img src="icons/slogo.png" alt="Singidunum University">
+          </div>
+          <div class="edu-content">
+            <h4>Bachelor in Computer Science</h4>
+            <span class="edu-school">Singidunum University — Belgrade, Serbia</span>
+            <span class="edu-date">2021 – 2025</span>
+            <p>
+              Bachelor studies in Computer Science with focus on
+              programming, databases, web technologies and security.
+            </p>
+          </div>
+        </div>
 
-    <div class="edu-item">
-      <div class="edu-icon">
-        <img src="icons/rklogo.png" alt="Rade Končar School">
-      </div>
-      <div class="edu-content">
-        <h4>Information Technology Technician</h4>
-        <span class="edu-school">
-          Electrotechnical School “Rade Končar” — Belgrade, Serbia
-        </span>
-        <span class="edu-date">2017 – 2021</span>
-        <p>
-          Secondary education in information technologies,
-          covering programming, databases and computer systems.
-        </p>
-      </div>
-    </div>
+        <div class="edu-item">
+          <div class="edu-icon">
+            <img src="icons/rklogo.png" alt="Rade Končar School">
+          </div>
+          <div class="edu-content">
+            <h4>Information Technology Technician</h4>
+            <span class="edu-school">
+              Electrotechnical School “Rade Končar” — Belgrade, Serbia
+            </span>
+            <span class="edu-date">2017 – 2021</span>
+            <p>
+              Secondary education in information technologies,
+              covering programming, databases and computer systems.
+            </p>
+          </div>
+        </div>
 
-  </div>
-</section>
+      </div>
+    </section>
 
 
     <section id="activities" class="section">
@@ -210,6 +212,7 @@
           <div class="project-badges">
             <span class="badge business">Business</span>
             <span class="badge web">Web</span>
+            <span class="badge business">Competition</span>
           </div>
 
           <h4>Medical Tourism Platform</h4>
@@ -250,7 +253,7 @@
             accessibility, and informative content. List of services and contact options as well as a map.
           </p>
           <div class="project-links">
-            <a href="https://itus.co.rs" target="_blank">GitHub</a>
+            <a href="https://itus.co.rs" target="_blank">Live</a>
           </div>
         </div>
 
@@ -274,8 +277,9 @@
 
           <div class="project-badges">
             <span class="badge analysis">Analysis</span>
+            <span class="badge business">Competition</span>
           </div>
-          <h4>Market & Data Analysis</h4>
+          <h4> Unija Challenge 2022 Market & Data Analysis</h4>
           <p>
             Analytical project focused on data processing,
             research methodology and structured result presentation.
@@ -290,7 +294,7 @@
           <div class="project-badges">
             <span class="badge web">Web Portfolio</span>
           </div>
-          <h4>Portfolio website for my friend</h4>
+          <h4>Portfolio Website for Nikola Veinovic</h4>
           <p>
             Personal portfolio website showcasing my friend's work and projects.
           </p>
@@ -299,10 +303,84 @@
           </div>
         </div>
 
+        <div class="project-card">
+          <img src="projects/cacaobeauty.png" alt="Portfolio website for my friend">
+          <div class="project-badges">
+            <span class="badge web">Web</span>
+            <span class="badge web">Wordpress</span>
+            <span class="badge web">WooCommerce</span>
+          </div>
+          <h4>Wordpress Cacao Spray Tan Web Shop</h4>
+          <p>
+            Webshop for Cacao Beauty spray tan products built with WordPress and WooCommerce.
+            I added new products, customized the theme, and set up payment and shipping options. Also added blogposts, newsletter and reviews.
+          </p>
+          <div class="project-links">
+            <a href="https://cacaobeauty.rs/" target="_blank">Live</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="projects/Expertservice.png" alt="Portfolio website for my friend">
+          <div class="project-badges">
+            <span class="badge web">Web</span>
+            <span class="badge web">Wordpress</span>
+          </div>
+          <h4>Expert Service IT</h4>
+          <p>
+            Website for Expert Service IT, an electronics repair shop in Belgrade.
+            I developed the website using WordPress, optimized it for SEO, and managed content updates to enhance online visibility.
+          </p>
+          <div class="project-links">
+            <a href="https://www.expert-service.rs/" target="_blank">Live</a>
+          </div>
+        </div>
+
+
+        <div class="project-card">
+          <img src="projects/unijamobileui.png" alt="UI/UX Design Project">
+
+          <div class="project-badges">
+            <span class="badge web">UI/UX</span>
+            <span class="badge business">Competition</span>
+          </div>
+
+          <h4>UI/UX Design Project (Figma)</h4>
+          <p>
+            UI/UX design projects created for Unija Challenge
+            focused on usability, information architecture, and clear user flows.
+          </p>
+
+          <div class="project-links">
+            <a href="https://www.figma.com/design/pNc2WR9WL46txelWSymRvp/Unija-App?m=auto&t=eYdU01wRNwbzQLQt-1"
+              target="_blank">Figma</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="projects/Aerogo.png" alt="UI/UX Design Project">
+
+          <div class="project-badges">
+            <span class="badge web">UI/UX</span>
+            <span class="badge business">Competition</span>
+          </div>
+
+          <h4>UI/UX Design Project (Figma)</h4>
+          <p>
+            UI/UX design projects created for Challenge Labs.
+          </p>
+
+          <div class="project-links">
+            <a href="https://www.figma.com/design/FLCYWmKkSvs1HiTZkGeIsx/Untitled?m=auto&t=CsatSkHHkJv76LL9-1"
+              target="_blank">Figma</a>
+          </div>
+        </div>
+
+
       </div>
 
-      <h3 style="margin-top:4rem;">Other GitHub Projects</h3>
-      <div id="repos" class="projects-grid"></div>
+     <!-- <h3 style="margin-top:4rem;">Other GitHub Projects</h3>
+      <div id="repos" class="projects-grid"></div> -->
     </section>
 
 
@@ -319,7 +397,7 @@
   <footer>
     Built with ❤️ • Vukašin Todorović • GitHub: <span id="github-user">Vulax</span>
   </footer>
-
+  <script type="module" src="three-bg.js"></script>
   <script src="script.js"></script>
 </body>
 
